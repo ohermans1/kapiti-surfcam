@@ -1,24 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.scss";
+import Video from "./components/Video";
+import Advert from "./components/Advert";
+import Weather from "./components/Weather";
+import Tides from "./components/Tides";
+import Windy from "./components/Windy";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="page">
+      <header className="header">
+        <h1 className="header__title">Kapiti Surfcam</h1>
       </header>
+      <main className="main">
+        <div className="widget-group">
+          <Weather />
+          <Tides />
+        </div>
+        <div className="iframe-group">
+          <Video />
+          <Windy />
+        </div>
+        <Advert />
+      </main>
+
+      <footer className="footer">Created by Ollie Hermans 2023</footer>
     </div>
   );
 }

@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Dancing Script", cursive;
+  color: #000041;
+}
+
+/*!! Scrollbar */
+@supports (overflow-y: overlay) {
+  html {
+    overflow-y: overlay;
+  }
+}
+
+*::-webkit-scrollbar {
+  display: block;
+  width: 1.4rem;
+}
+
+*::-webkit-scrollbar-button {
+  display: none;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: #00000000;
+}
+
+*::-webkit-scrollbar-track-piece {
+  background-color: #00000000;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: gold;
+  border-radius: 24px;
+}
