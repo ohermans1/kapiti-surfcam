@@ -24,7 +24,7 @@ const Video = () => {
       className="video"
       width={width}
       height={height}
-      src="https://www.youtube.com/embed/_q3YM5JxpJ8"
+      src="https://youtu.be/cx9mItuLdIs"
       title="Paraparaumu Beach (Kapiti) Surfcam"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
