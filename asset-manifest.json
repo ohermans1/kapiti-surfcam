@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/kapiti-surfcam/static/css/main.887fb514.css",
+    "main.js": "/kapiti-surfcam/static/js/main.38ae7269.js",
+    "static/js/787.a837f79a.chunk.js": "/kapiti-surfcam/static/js/787.a837f79a.chunk.js",
+    "static/media/kapiti-island.png": "/kapiti-surfcam/static/media/kapiti-island.1bde0b9b59ccdc2dcdcf.png",
+    "index.html": "/kapiti-surfcam/index.html",
+    "main.887fb514.css.map": "/kapiti-surfcam/static/css/main.887fb514.css.map",
+    "main.38ae7269.js.map": "/kapiti-surfcam/static/js/main.38ae7269.js.map",
+    "787.a837f79a.chunk.js.map": "/kapiti-surfcam/static/js/787.a837f79a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.887fb514.css",
+    "static/js/main.38ae7269.js"
+  ]
+}
